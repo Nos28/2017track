@@ -1,0 +1,84 @@
+body{
+margin:0 auto;
+background:#f3f3f3;
+
+}
+
+
+table{
+border:none;
+}
+
+h2{
+text-align:center;
+}
+
+.imgOne{
+  background-image: url("https://res.cloudinary.com/dezfpp1ek/image/upload/v1494700163/cover2_qcvv8n.jpg");
+  background-position:top;
+}
+
+.imgOne, .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgSeven{
+      /* Set a specific height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+
+.imgTwo{
+  background-image:url("https://res.cloudinary.com/dezfpp1ek/image/upload/v1494643782/fieldpic1_gnochw.jpg");
+  background-position:center;
+}
+
+.imgThree{
+  background-image:url("https://res.cloudinary.com/dezfpp1ek/image/upload/v1494684991/race1_gs30kd.jpg");
+  background-position: top;
+}
+
+.imgFour{
+  background-image:url("https://res.cloudinary.com/dezfpp1ek/image/upload/v1494685219/relay1_t5jdha.jpg");
+  background-position:top;
+}
+
+.imgFive{
+  background-image:url("https://res.cloudinary.com/dezfpp1ek/image/upload/v1494685831/race2_dz8dkm.jpg");
+  background-position: center;
+}
+
+.imgSix{
+  background-image:url("https://res.cloudinary.com/dezfpp1ek/image/upload/v1494686047/field2_qijxwx.jpg");
+  background-position: center;
+}
+
+.imgSeven{
+  background-image:url("https://res.cloudinary.com/dezfpp1ek/image/upload/v1494686047/relay2_o8dv2k.jpg");
+  background-position: top;
+}
+
+.header{
+  text-align:center;
+  margin:0 auto;
+  padding-top:200px;
+  font-size:4em;
+  color:white;
+  text-shadow:1px 1px 1px black;
+}
+
+.qualifiers{
+  font-size:1.5em;
+  padding-top:20px;
+}
+
+.container{
+  text-align:center;
+  padding:20px 0;
+}
+
+.intro{
+  font-size:1em;
+  text-align:center;
+}
